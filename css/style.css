@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 20px;
+}
+.developer-section{
+    height: 400px;
+}
+.two-col{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* display: flex; */
+    float: left;
+}
+.two-col h1{
+    font-size: 50px;
+}
+.developer{
+   height: 50%;
+    width: 100%;
+}
+.dev-text{
+    padding-top: 100px;
+}
+.dev-head{
+    border-left: 5px solid salmon;
+}
+.dev-specail{
+    color: tomato;
+}
+.button{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: rgb(236, 53, 32);
+    border-radius: 5px;
+    color: black;
+   
+}
+.button:hover{
+    background-color: salmon;
+    color: aliceblue;
+}
+
+.mission-section{
+   margin: 0 20px;
+  height: 600px;
+  
+}
+.mission-section h2{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.third-half{
+    width: 30%;
+    margin: 0 10px;
+    
+    /* display: flex; */
+    float: left;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+#third-half-1{
+    background-color: rgb(127, 209, 241);
+}
+#third-half-2{
+    background-color: rgb(231, 105, 231);
+}
+#third-half-3{
+    background-color: rgb(236, 184, 115);
+}
+.third-half img{
+    width: 50%;
+}
+.third-half h3{
+    font-size: 30px;
+}
+
+.dev-limit{
+    height: 400px;
+    display: flex;
+    float: right;
+    margin: 50px 0;
+    background-image: url("../images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20%;
+    padding-left: 5%;
+}
+.commity-part .limit-half1,
+.dev-limit .limit-half1{
+    width: 30%;
+    padding: 20px;
+    
+}
+.commity-part .limit-half2,
+.dev-limit .limit-half2{
+    width: 60%;  
+    padding: 20px; 
+}
+.commity-part .limit-half1 img,
+.dev-limit img{
+    width: 90%;
+}
+.limit-half2 h2{
+    font-size: 40px;
+}
+.commity-part{
+    display: flex;
+    float: right;
+    margin: 50px 5%;
+    height: 400px;
+    
+   
+    background-image: url("../images/shapes/shape-1.png");
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 20%;
+    padding-left: 5%;
+}
+
+.contact-part{
+    height: 400px;
+}
+.contact-part h2{
+   text-align: center;
+   font-size: 40px;
+}
+.contact-part input{
+    margin: 10px 0;
+    width: 300px;
+}
+.form{
+    margin: 50px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(70, 38, 38, 0.822);
+}
+.map{
+    margin: 50px;
+}
+.map iframe{
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background: #000;
+}
+footer h2{
+    font-size: 40px;
+}
