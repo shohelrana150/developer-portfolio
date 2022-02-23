@@ -1,6 +1,13 @@
 body{
     margin: 0;
-    padding: 20px;
+    padding: 0;
+    
+}
+p{
+    padding: 10px 0;
+}
+.container{
+    padding: 0px 20px;
 }
 .developer-section{
     height: 400px;
@@ -123,6 +130,7 @@ body{
 
 .contact-part{
     height: 400px;
+    padding-bottom: 50px
 }
 .contact-part h2{
    text-align: center;
@@ -147,9 +155,11 @@ body{
 }
 footer{
     text-align: center;
-    height: 100px;
+    height: 180px;
     width: 100%;
     background: #000;
+    margin-top: 100%;
+    color: #fff;
 }
 footer h2{
     font-size: 40px;
